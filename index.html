@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DermIvoir - Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon"><img src="images/logo.png" alt=""></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#timeline">Nos Produits</a></li>
+                <li><a href="#portfolio">vos Avis</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-bg-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="geo-shape geo-1"></div>
+            <div class="geo-shape geo-2"></div>
+            <div class="particles">
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>DermIvoir</h1>
+            <p class="subtitle">L’éclat de la beauté naturelle</p>
+            <p>Nos produits ne changent pas juste votre quotidien… ils le réinventent.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="cta-primary">Nos Produits</a>
+                <a href="#contact" class="cta-secondary">Contactez nous </a>
+            </div>
+            
+            <div class="stats-section">
+                 <div class="stat-card">
+        <img src="images/delivery-truck.png" alt="" class="stat-image">
+        <span class="stat-label">Livraison Rapide</span>
+    </div>
+    <div class="stat-card">
+        <img src="images/headphone.png" alt="" class="stat-image">
+        <span class="stat-label">Support 24h/24 et 7j/7</span>
+    </div>
+    <div class="stat-card">
+        <img src="images/repeat.png" alt="" class="stat-image">
+        <span class="stat-label">Politique de retour sans frais</span>
+    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Produits</h2>
+                <p class="section-subtitle">Nos produits, conçus pour vous offrir le meilleur chaque jour</p>
+            </div>
+
+            <div class="timeline-controls">
+                <button class="timeline-filter active" data-filter="all">Tout</button>
+                <button class="timeline-filter" data-filter="Sérum">Sérum</button>
+                <button class="timeline-filter" data-filter="lait">Lait</button>
+                <button class="timeline-filter" data-filter="Crème">Crème</button>
+                <button class="timeline-filter" data-filter="soap">Savon</button>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="timeline-progress"></div>
+
+                <div class="timeline-item" data-category="lait">
+                    <div class="timeline-node"> 
+                        <img src="images/body-lotion.png" alt="" style="width:40px; height:40px;">
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Commander</div>
+                        <div class="timeline-company"> DermIvoir Lait corps 500ml</div>
+                        <img src="images/Lait corps (1).png" alt="" class="timeline-image">
+                        <p class="timeline-description">
+                            Le lait corps Dermivoir hydrate intensément et adoucit la peau grâce à sa formule nourrissante.
+                            Il apaise les tiraillements, protège du dessèchement et laisse la peau souple,
+                            confortable et délicatement parfumée.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="Sérum">
+                    <div class="timeline-node">
+                         <img src="images/serum.png" alt="" style="width:40px; height:40px;">
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Commander</div>
+                        <div class="timeline-company">DermIvoir Sérum hydratant 30ml</div>
+                        <img src="images/SERUM MOCKUO.png" alt="" class="timeline-image" >
+                        <p class="timeline-description">
+                           Le sérum hydratant Dermivoir offre une hydratation profonde et rapide. 
+                           Sa formule légère repulpe la peau, améliore l’éclat, apaise les zones sèches et renforce la barrière 
+                           cutanée pour un confort durable en beauté.
+                        </p>
+                    
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="Crème">
+                    <div class="timeline-node">
+                        <img src="images/skincare.png" alt="" style="width:40px; height:40px;">
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Commande</div>
+                        <div class="timeline-company">Dermivoir Créme de visage 50ml</div>
+                        <img src="images/Free_Jar_Mockup.png" alt="" class="timeline-image">
+                        <p class="timeline-description">
+                            La crème visage Dermivoir nourrit intensément la peau et renforce son éclat radieux.
+                            Sa texture douce hydrate en profondeur pour un teint lisse et confortable
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="Sérum">
+                    <div class="timeline-node">
+                        <img src="images/serum.png" alt="" style="width:40px; height:40px;">
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Commander</div>
+                        <div class="timeline-company">Dermivoir lotion de visage 45ml</div>
+                        <img src="images/CONDITIONNEMENT LOTION DE VISAGE.png" alt="" class="timeline-image">
+                        <p class="timeline-description">
+                            La lotion de visage Dermivoir rafraîchit et hydrate délicatement la peau. Sa formule douce élimine les impuretés, 
+                            rééquilibre le teint et laisse une sensation de pureté, de confort et d’éclat durable et très doux!.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-category="soap">
+                    <div class="timeline-node">
+                        <img src="images/soap.png" alt="" style="width:40px; height:40px;">
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">Commander</div>
+                        <div class="timeline-company">DermIvoir Gel douche</div>
+                        <img src="images/Flip_Top_Bottle_On_The_Rock.png" alt="" class="timeline-image">
+                        <p class="timeline-description">
+                            "Le gel douche Dermivoir nettoie la peau en douceur tout en préservant son hydratation naturelle.
+                             Sa mousse soyeuse élimine les impuretés, laisse la peau fraîche, apaisée et parfumée pour un moment de bien-être.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vos Avis </h2>
+                <p class="section-subtitle">chaque retour confirme l’efficacité et la qualité de nos soins, qui allient performance et plaisir. Vos témoignages sont au cœur de notre engagement vers l’excellence</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image ecommerce"></div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Livraison rapide et satisfaction garantie</h3>
+                        <p class="portfolio-description">je suis extrêmement satisfait de ma commande ! La livraison a été très rapide, bien plus tôt que ce à quoi je m'attendais. En plus, le produit correspond parfaitement à la description et est de très bonne qualité. Je recommande vivement satisfaction garantie</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Andrea S.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image analytics"></div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Convient a tout type de peau</h3>
+                        <p class="portfolio-description">J'ai une peau assez sensible, et je suis toujours un peu hésitant(e) avec les nouveaux produits. Mais celui-ci m'a vraiment convaincu ! Il s'adapte parfaitement à ma peau sans irritation et la laisse super douce</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Mme SEHI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image music"></div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Pour Toute La Famille</h3>
+                        <p class="portfolio-description">Produit parfait pour toute la famille ! Doux et adapté à toutes les peaux, même les plus sensibles. On l'adore tous !</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Astride L.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-Nous !</h2>
+                <p class="section-subtitle">Vous avez des questions sur nos produits ou souhaitez des conseils beauté personnalisés ? Notre équipe est là pour vous accompagner et répondre à toutes vos demandes.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>📍 Retrouver ici :</h3>
+                    <div class="contact-details">
+        <p>Notre boutique est située à Abidjan. Venez nous rendre visite ou contactez-nous en ligne pour toute question !</p>
+         <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.110643287435!2d-4.0309!3d5.3456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zNsKwMjgnNTQuNiJO4mFw1U!5e0!3m2!1sfr!2sci!4v1631855635808!5m2!1sfr!2sci" 
+            width="600" 
+            height="250" 
+            frameborder="0" 
+            style="border:0; width: 100%;" 
+            allowfullscreen>
+        </iframe>
+    </div>
+                </div>
+                <div class="contact-form-container">
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-input" placeholder="Télephone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-textarea" rows="5" placeholder="Entrez votre message...." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Envoyez</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="images/logo.png" alt="" />
+        </div>
+        <div class="footer-content">
+            <p class="footer-copyright">© 2025 DermIvoir. All rights reserved.</p>
+            <p class="footer-design">Designed by <a href="https://locoeur.github.io/portfolio/"><span>AS CREATION</span></a></p>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
